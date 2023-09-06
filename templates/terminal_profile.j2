@@ -1,0 +1,22 @@
+[legacy/profiles:/:{{ regularfont_uuid }}]
+use-system-font=true
+visible-name='regularfont'
+font='Monospace 12'
+
+[legacy/profiles:]
+list=["{{ regularfont_uuid }}", "{{ biggerfont_uuid }}"]
+default="{{ regularfont_uuid}}"
+
+[legacy/profiles:/:{{ biggerfont_uuid }}]
+use-system-font=false
+visible-name='biggerfont'
+font='Monospace 18'
+
+[legacy]
+schema-version=uint32 3
+use-system-font=false
+font='Monospace 12'
+
+[legacy/profiles]
+use-system-font=false
+font='Monospace 12'
