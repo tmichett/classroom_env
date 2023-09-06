@@ -2,6 +2,7 @@
 
 This Ansible Playbook is suitable to be used in Red Hat Training classes and is tested on RHEL 8 and RHEL 9 environments.
 
+## Credit (Ricardo da Costa)
 Original Location:
 https://gitlab.com/rgdacosta/classroom_env
 
